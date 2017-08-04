@@ -1,4 +1,4 @@
 #!/bin/bash
 echo totteroo
-grep -q orange ../index.html
+#grep -q orange ../index.html
 
