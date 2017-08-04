@@ -5,7 +5,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Checking inside index.html
-      - tests/check_orange.sh
+      - bash tests/check_orange.sh
   post_build:
     commands:
       - echo Build completed on `date`
